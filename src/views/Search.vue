@@ -1,9 +1,9 @@
 <template>
-  <main>
-    <div class="shadow-sm navigation mb-4 bg-light">
+  <main style="margin-bottom:20vh; margin-top:13vh;">
+    <div class="fixed-top shadow-sm navigation mb-4 bg-light">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-1 p-0 mr-3 text-left">
+          <div class="col-1 pl-0 mr-3 text-left">
             <a href="#" @click="$router.go(-1)">
               <icon
                 :icon="['fas', 'arrow-left']"
@@ -28,13 +28,13 @@
           </div>
           <div class="col-1 ml-3 p-0 text-left">
             <div class="cart d-inline">
-              <a href="#">
+              <router-link :to="{ name: 'checkout' }">
                 <icon
                   :icon="['fas', 'shopping-cart']"
                   size="lg"
                   :style="{ color: 'black' }"
                 />
-              </a>
+              </router-link>
             </div>
           </div>
         </div>
@@ -154,6 +154,10 @@ export default {
 </script>
 
 <style scoped>
+.list-group-item {
+  background-color: transparent;
+}
+
 .navigation {
   padding: 10px 20px 10px 20px;
 }

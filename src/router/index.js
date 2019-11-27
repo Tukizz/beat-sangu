@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "@/views/Home.vue";
 import Detail from "@/views/Detail.vue";
+import Checkout from "@/views/Checkout.vue";
 import Search from "@/views/Search.vue";
 
 Vue.use(VueRouter);
@@ -16,6 +17,11 @@ const routes = [
     path: "/detail",
     name: "detail",
     component: Detail
+  },
+  {
+    path: "/checkout",
+    name: "checkout",
+    component: Checkout
   },
   {
     path: "/search",

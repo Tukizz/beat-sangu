@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "beatshops",
+    "beatshop": "beatshop-wds318"
+  }
+}

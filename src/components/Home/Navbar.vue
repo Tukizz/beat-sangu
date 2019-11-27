@@ -1,6 +1,6 @@
 <template>
-  <nav class="navbar navbar-light bg-light mt-1 shadow-sm">
-    <div class="col-auto pt-2 pb-1">
+  <nav class="navbar navbar-light bg-light shadow-sm">
+    <div class="col-auto pl-0 pt-2 pb-1">
       <a href="#" class="mr-2">
         <icon :icon="['fas', 'bars']" size="lg" :style="{ color: 'black' }" />
       </a>
@@ -13,7 +13,7 @@
         />
       </a>
     </div>
-    <div class="col-auto">
+    <div class="col-auto pr-0">
       <div class="search d-inline mr-1">
         <router-link :to="{ name: 'search' }">
           <icon
@@ -24,13 +24,13 @@
         </router-link>
       </div>
       <div class="search d-inline ml-2">
-        <a href="#">
+        <router-link :to="{ name: 'checkout' }">
           <icon
             :icon="['fas', 'shopping-cart']"
             size="lg"
             :style="{ color: 'black' }"
           />
-        </a>
+        </router-link>
       </div>
     </div>
   </nav>
