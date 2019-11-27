@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <section class="container">
     <div class="button-group">
       <button
         :v-for="(val, key) in option.getFilterData"
@@ -26,7 +26,7 @@
         {{ element.name }}
       </div>
     </isotope>
-  </div>
+  </section>
 </template>
 
 <script>

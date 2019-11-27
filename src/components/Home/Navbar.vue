@@ -1,7 +1,7 @@
 <template>
-  <nav class="navbar navbar-light bg-light shadow-sm">
+  <nav class="navbar navbar-light bg-light mt-1 shadow-sm">
     <div class="col-auto pt-2 pb-1">
-      <a href="#">
+      <a href="#" class="mr-2">
         <icon :icon="['fas', 'bars']" size="lg" :style="{ color: 'black' }" />
       </a>
       <a class="ml-3" href="/">
@@ -15,13 +15,13 @@
     </div>
     <div class="col-auto">
       <div class="search d-inline mr-1">
-        <a href="#">
+        <router-link :to="{ name: 'search' }">
           <icon
             :icon="['fas', 'search']"
             size="lg"
             :style="{ color: 'black' }"
           />
-        </a>
+        </router-link>
       </div>
       <div class="search d-inline ml-2">
         <a href="#">
@@ -39,7 +39,7 @@
 <style scoped>
 .search {
   background-color: #ebe8e8;
-  padding: 10px;
+  padding: 11px 11px 11px 9px;
   border-radius: 100%;
 }
 </style>

@@ -31,12 +31,7 @@
             <div class="col">
               <div class="radio-toolbar">
                 <div class="size-input">
-                  <input
-                    type="radio"
-                    id="s"
-                    name="radioFruit"
-                    value="apple"
-                  />
+                  <input type="radio" id="s" name="radioFruit" value="apple" />
                   <label for="s">S</label>
                 </div>
 
@@ -119,7 +114,6 @@ export default {
   position: fixed;
   width: 0;
 }
-
 .radio-toolbar label {
   display: inline-block;
   padding: 5px 10px;
@@ -127,11 +121,9 @@ export default {
   font-weight: bold;
   border-radius: 6px;
 }
-
 .radio-toolbar label:hover {
   background-color: #dfd;
 }
-
 .radio-toolbar input[type="radio"]:checked + label {
   background-color: #bfb;
   border-color: #4c4;
