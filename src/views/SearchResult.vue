@@ -67,7 +67,10 @@
             <icon :icon="['fas', 'star']" size="xs" class="star" />
             <icon :icon="['fas', 'star']" size="xs" class="star" />
           </div>
-          <router-link :to="{ name: 'detail'}" class="stretched-link"></router-link>
+          <router-link
+            :to="{ name: 'detail' }"
+            class="stretched-link"
+          ></router-link>
         </div>
       </div>
     </section>
