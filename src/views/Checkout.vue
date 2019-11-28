@@ -49,9 +49,9 @@
           <h4 class="m-0">Order Item</h4>
         </div>
         <div class="col-auto">
-            <router-link :to="{ name: 'home' }">
-                <span class="text-dark">+ Add More</span>
-            </router-link>
+          <router-link :to="{ name: 'home' }">
+            <span class="text-dark">+ Add More</span>
+          </router-link>
         </div>
       </div>
       <div style="border-bottom: 1px solid black; margin-top:10px;"></div>
@@ -158,10 +158,13 @@
         <div class="container">
           <div class="card-body">
             <div class="row">
-              <h5>Rp. 416.000&nbsp;</h5><span class="ml-1 badge-method">Alfamart</span>
+              <h5>Rp. 416.000&nbsp;</h5>
+              <span class="ml-1 badge-method">Alfamart</span>
             </div>
             <div class="row">
-              <button class="btn btn-success btn-block font-weight-bold rounded-lg">
+              <button
+                class="btn btn-success btn-block font-weight-bold rounded-lg"
+              >
                 BAYAR
               </button>
             </div>
@@ -173,7 +176,7 @@
 </template>
 
 <style scoped>
-.badge-method{
+.badge-method {
   background-color: #bdbdbd;
   border-radius: 10px;
   padding: 2px 0.6em;

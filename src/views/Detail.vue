@@ -3,7 +3,11 @@
     <nav class="navbar fixed-top navbar-light bg-light shadow-sm">
       <div class="col-auto pl-0 pt-2 pb-2">
         <a href="#" class="mr-2" @click="$router.go(-1)">
-          <icon :icon="['fas', 'arrow-left']" size="lg" :style="{ color: 'black' }" />
+          <icon
+            :icon="['fas', 'arrow-left']"
+            size="lg"
+            :style="{ color: 'black' }"
+          />
         </a>
       </div>
       <div class="col-auto pr-0">
@@ -64,22 +68,12 @@
                 </div>
 
                 <div class="size-input">
-                  <input
-                    type="radio"
-                    id="xl"
-                    name="size"
-                    value="xl"
-                  />
+                  <input type="radio" id="xl" name="size" value="xl" />
                   <label for="xl">XL</label>
                 </div>
 
                 <div class="size-input">
-                  <input
-                    type="radio"
-                    id="xxl"
-                    name="size"
-                    value="xxl"
-                  />
+                  <input type="radio" id="xxl" name="size" value="xxl" />
                   <label for="xxl">XXL</label>
                 </div>
               </div>
@@ -140,7 +134,6 @@ export default {
 </script>
 
 <style scoped>
-
 .cart {
   background-color: #ece8e8;
   padding: 11px 11px 11px 9px;
@@ -159,53 +152,53 @@ export default {
 }
 .radio-color label.pink {
   display: inline-block;
-  width:25px;
-  height:25px;
-  background-color: #F48FB1;
+  width: 25px;
+  height: 25px;
+  background-color: #f48fb1;
   font-weight: bold;
   border-radius: 50%;
 }
 .radio-color label.pink:hover {
-  background-color: #B56882;
+  background-color: #b56882;
 }
 
 .radio-color input[type="radio"]:checked + label.blue {
-  background-color: #B56882;
-  border-color: #F48FB1;
+  background-color: #b56882;
+  border-color: #f48fb1;
 }
 
 .radio-color label.blue {
   display: inline-block;
-  width:25px;
-  height:25px;
-  background-color: #2196F3;
+  width: 25px;
+  height: 25px;
+  background-color: #2196f3;
   font-weight: bold;
   border-radius: 50%;
 }
 .radio-color label.blue:hover {
-  background-color: #1E70B1;
+  background-color: #1e70b1;
 }
 
 .radio-color input[type="radio"]:checked + label.blue {
-  background-color: #1E70B1;
-  border-color: #2196F3;
+  background-color: #1e70b1;
+  border-color: #2196f3;
 }
 
 .radio-color label.black {
   display: inline-block;
-  width:25px;
-  height:25px;
-  background-color: #37474F;
+  width: 25px;
+  height: 25px;
+  background-color: #37474f;
   font-weight: bold;
   border-radius: 50%;
 }
 .radio-color label.black:hover {
-  background-color: #1A2226;
+  background-color: #1a2226;
 }
 
 .radio-color input[type="radio"]:checked + label.black {
-  background-color: #1A2226;
-  border-color: #37474F;
+  background-color: #1a2226;
+  border-color: #37474f;
 }
 
 .size-input {
