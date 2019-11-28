@@ -103,6 +103,11 @@ export default {
   margin-left: 10px;
   background-color: #fff;
 }
+.cart {
+  background-color: #ece8e8;
+  padding: 11px 11px 11px 9px;
+  border-radius: 100%;
+}
 .navigation {
   padding: 10px 20px 10px 20px;
 }
