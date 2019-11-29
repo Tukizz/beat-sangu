@@ -57,7 +57,7 @@
           class="card-img-top card-img-search"
           alt="baju"
         />
-        <div class="card-body card-body-search pl-0 pr-0">
+        <div class="card-body card-body-search">
           <h6 class="card-title">Kemeja Dongker</h6>
           <span>Rp. 100.000.-</span>
           <div class="mt-1">
@@ -109,8 +109,10 @@ export default {
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
 }
 .card-body-search {
-  margin-top: -10px;
-  margin-left: 10px;
+  margin-top: -20px;
+  padding-top: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
   background-color: #fff;
 }
 .cart {
