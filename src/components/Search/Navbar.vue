@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-1 pl-0 mr-3 text-left">
-          <a href="#" @click="$router.go(-1)">
+          <a @click="$router.go(-1)">
             <icon
               :icon="['fas', 'arrow-left']"
               size="lg"

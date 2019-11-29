@@ -3,7 +3,6 @@
     <div class="row">
       <div class="col">
         <div class="media">
-          <!-- <img src="..." class="mr-3" alt="..."> -->
           <icon
             class="mr-3 mt-1"
             :icon="['fas', 'map-marker-alt']"
