@@ -79,10 +79,16 @@
 
 <script>
 export default {
+  props: ["message"],
   data() {
     return {
       search: ""
     };
+  },
+  mounted() {
+    if (this.message) {
+      this.search = this.message;
+    }
   }
 };
 </script>

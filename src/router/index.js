@@ -32,7 +32,8 @@ const routes = [
   {
     path: "/search/result",
     name: "searchResult",
-    component: SearchResult
+    component: SearchResult,
+    props: true
   }
   // {
   //   path: "/about",
