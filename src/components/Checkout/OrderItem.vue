@@ -18,7 +18,7 @@
           <div class="list-group-item pr-0 pl-0">
             <div class="media">
               <img
-                src="@/assets/img/baju-full.jpg"
+                src="@/assets/img/wanita/1.jpg"
                 width="110"
                 style="border-radius:20px;"
                 class="mr-3"
@@ -39,7 +39,7 @@
           <div class="list-group-item pr-0 pl-0">
             <div class="media">
               <img
-                src="@/assets/img/baju2.jpg"
+                src="@/assets/img/pria/1.jpg"
                 width="110"
                 style="border-radius:20px;"
                 class="mr-3"

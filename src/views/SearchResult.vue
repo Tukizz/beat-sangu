@@ -53,7 +53,7 @@
     <section class="container mt-3">
       <div class="card-search border-0">
         <img
-          src="@/assets/img/baju2.jpg"
+          src="@/assets/img/pria/1.jpg"
           class="card-img-top card-img-search"
           alt="baju"
         />
