@@ -69,7 +69,7 @@
               width="100"
               alt=""
             />
-            <span class="mt-2 d-block font-weight-bold">Aldi Nurohman</span>
+            <span class="mt-2 d-block font-weight-bold">Aldi Nurrahman</span>
             <small>Content Writer</small>
             <a
               href="https://www.instagram.com/aldiiinm/"
