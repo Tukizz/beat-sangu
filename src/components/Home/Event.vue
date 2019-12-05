@@ -1,5 +1,5 @@
 <template>
-  <section class="container mt-4 pt-2">
+  <section class="container mt-5 pt-5">
     <flickity ref="flickity" :options="flickityOptions">
       <div class="event-cell">
         <img class="img-fluid" src="@/assets/img/banner.jpg" alt="Event" />

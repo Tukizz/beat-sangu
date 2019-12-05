@@ -16,6 +16,12 @@
       <div class="col">
         <div class="list-group list-group-flush">
           <div class="list-group-item pr-0 pl-0">
+            <icon
+              class="ml-auto"
+              :icon="['fas', 'times']"
+              size="lg"
+              style="color: black; position: inherit; left: 95%;"
+            />
             <div class="media">
               <img
                 src="@/assets/img/wanita/1.jpg"
@@ -30,13 +36,19 @@
                 <span class="badge-pink mt-3"></span>
                 <h6 class="d-block mt-4">Rp. 100.000</h6>
               </div>
+              <router-link
+                :to="{ name: 'detail' }"
+                class="stretched-link"
+              ></router-link>
             </div>
-            <router-link
-              :to="{ name: 'detail' }"
-              class="stretched-link"
-            ></router-link>
           </div>
           <div class="list-group-item pr-0 pl-0">
+            <icon
+              class="ml-auto"
+              :icon="['fas', 'times']"
+              size="lg"
+              style="color: black; position: inherit; left: 95%;"
+            />
             <div class="media">
               <img
                 src="@/assets/img/pria/1.jpg"
@@ -51,11 +63,11 @@
                 <span class="badge-pink mt-3"></span>
                 <h6 class="d-block mt-4">Rp. 300.000</h6>
               </div>
+              <router-link
+                :to="{ name: 'detail' }"
+                class="stretched-link"
+              ></router-link>
             </div>
-            <router-link
-              :to="{ name: 'detail' }"
-              class="stretched-link"
-            ></router-link>
           </div>
         </div>
       </div>
@@ -64,6 +76,9 @@
 </template>
 
 <style scoped>
+.list-group-item {
+  background-color: transparent;
+}
 .badge-method {
   background-color: #bdbdbd;
   border-radius: 10px;

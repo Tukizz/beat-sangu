@@ -88,7 +88,7 @@
       <div class="col">
         <button
           class="btn btn-block"
-          style="background-color:#C4C4C4; border-radius:20px; font-weight:bold;"
+          style="background-color:#7bc1f9; color:#fff; border-radius:20px; font-weight:bold;"
         >
           ADD TO CART
         </button>

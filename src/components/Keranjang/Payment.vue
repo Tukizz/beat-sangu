@@ -11,12 +11,12 @@
         <h6>Payment Method</h6>
       </div>
       <div class="col-auto">
-        <h6 class="d-inline mr-2">Alfamart</h6>
-        <icon
-          :icon="['fas', 'ellipsis-v']"
-          size="sm"
-          :style="{ color: 'black' }"
-        />
+        <select class="option-payment" v-model="payment">
+          <!-- <option selected disabled>Pilih</option> -->
+          <option>Alfamart</option>
+          <option>Indomaret</option>
+          <option>Transfer</option>
+        </select>
       </div>
     </div>
     <div class="row">
@@ -59,14 +59,14 @@
           <div class="card-body">
             <div class="row">
               <h5>Rp. 416.000&nbsp;</h5>
-              <span class="ml-1 badge-method">Alfamart</span>
+              <span class="ml-1 badge-method">{{ payment }}</span>
             </div>
             <div class="row">
-              <button
-                class="btn btn-success btn-block font-weight-bold rounded-lg"
+              <router-link
+                :to="{ name: 'transaksi' }"
+                class="btn btn-pay btn-block font-weight-bold rounded-lg"
+                >BAYAR</router-link
               >
-                BAYAR
-              </button>
             </div>
           </div>
         </div>
@@ -74,3 +74,34 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      payment: ""
+    };
+  }
+};
+</script>
+
+<style scoped>
+.option-payment {
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 1rem;
+  /* appearance:none; */
+  width: 100%;
+}
+.badge-method {
+  background-color: #4ba2e4;
+  color: #fff;
+  border-radius: 10px;
+  padding: 1px 6px;
+  margin-bottom: 10px;
+}
+.btn-pay {
+  background-color: #7bc1f9;
+  color: #fff;
+}
+</style>

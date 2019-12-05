@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import Navbar from "@/components/Checkout/Navbar";
-import Deliver from "@/components/Checkout/Deliver";
-import Order from "@/components/Checkout/OrderItem";
-import Payment from "@/components/Checkout/Payment";
+import Navbar from "@/components/Keranjang/Navbar";
+import Deliver from "@/components/Keranjang/Deliver";
+import Order from "@/components/Keranjang/OrderItem";
+import Payment from "@/components/Keranjang/Payment";
 
 export default {
   components: {

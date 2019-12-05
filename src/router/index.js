@@ -2,9 +2,11 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "@/views/Home.vue";
 import Detail from "@/views/Detail.vue";
-import Checkout from "@/views/Checkout.vue";
+import Keranjang from "@/views/Keranjang";
+import Transaksi from "@/views/Transaksi";
 import Search from "@/views/Search.vue";
 import SearchResult from "@/views/SearchResult";
+import About from "@/views/About";
 
 Vue.use(VueRouter);
 
@@ -20,9 +22,9 @@ const routes = [
     component: Detail
   },
   {
-    path: "/checkout",
-    name: "checkout",
-    component: Checkout
+    path: "/keranjang",
+    name: "keranjang",
+    component: Keranjang
   },
   {
     path: "/search",
@@ -34,6 +36,16 @@ const routes = [
     name: "searchResult",
     component: SearchResult,
     props: true
+  },
+  {
+    path: "/about",
+    name: "about",
+    component: About
+  },
+  {
+    path: "/transaksi",
+    name: "transaksi",
+    component: Transaksi
   }
   // {
   //   path: "/about",
