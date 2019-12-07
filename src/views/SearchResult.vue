@@ -23,6 +23,7 @@
                 class="form-control"
                 placeholder="Search"
                 aria-label="search"
+                v-model="search"
               />
             </div>
           </div>
